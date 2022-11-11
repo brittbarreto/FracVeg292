@@ -39,9 +39,9 @@ This document will explain how to set up a JupyterLab-enabled Python environment
             ../util-scripts/setup-python.sh
         ```
 
-6. Add the correct version of Python to your PATH:
+6. Set up Miniconda to work with your shell:
 
-    You should be able to copy/paste this from the output of the Python install script (yours may look different; it will tell you *exactly* which command to run).
+    You should be able to copy/paste this from the output of the Python install script (yours may look different; it will tell you *exactly* which command to run). You will need to run this command each time you want to use `conda` unless you add it to your bash config.
 
     ```bash
     source ./conda/etc/profile.d/conda.sh

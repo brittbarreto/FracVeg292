@@ -8,10 +8,6 @@ CONDA_INSTALL_LOCATION="$(pwd)/conda"
 LOGS_LOCATION="$(pwd)/logs"
 
 
-### Set up necessary directories ###
-mkdir -p "${CONDA_INSTALL_LOCATION}"
-
-
 ### Miniconda Setup ###
 
 # Install Miniconda
@@ -36,6 +32,7 @@ echo ""
 
 echo "[INFO] To use the installed version of Miniconda in other shells, run the following command:"
 echo "$ source ${CONDA_INSTALL_LOCATION}/etc/profile.d/conda.sh"
+
 
 ### End Tasks Section ###
 echo ""

@@ -3,6 +3,11 @@ Fractional vegetation cover project for Machine Learning 292
 
 ## Project Overview
 
+Key:
+- Green: Done
+- Orange/Yellow: In Progress
+- Default: To Do
+
 ```mermaid
 flowchart TD
     GT[/"<b>Ground Truth point data</b> <br/> <i>Point Data (.csv)</i>"/]
@@ -31,4 +36,12 @@ flowchart TD
     MFVC -->FVC
 
     GT -->BNC
+
+    style OP fill:#32a4a7,stroke:#1e7069,color:#000
+    style PD fill:#32a4a7,stroke:#1e7069,color:#000
+    style GT fill:#32a4a7,stroke:#1e7069,color:#000
+
+    style PPR fill:#32a4a7,stroke:#1e7069,color:#000
+
+    style BNC fill:#f2c43d,stroke:#f17c37,color:#000
 ```

@@ -41,7 +41,11 @@ flowchart TD
     style PD fill:#32a4a7,stroke:#1e7069,color:#000
     style GT fill:#32a4a7,stroke:#1e7069,color:#000
 
+    style VIS fill:#32a4a7,stroke:#1e7069,color:#000
     style PPR fill:#32a4a7,stroke:#1e7069,color:#000
+    style CHOOSE fill:#32a4a7,stroke:#1e7069,color:#000
 
-    style BNC fill:#f2c43d,stroke:#f17c37,color:#000
+    style BNC fill:#32a4a7,stroke:#1e7069,color:#000
+    style GDLW fill:#32a4a7,stroke:#1e7069,color:#000
+    style MFVC fill:#f2c43d,stroke:#f17c37,color:#000
 ```
